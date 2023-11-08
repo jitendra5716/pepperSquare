@@ -1,0 +1,85 @@
+.outerDiv{
+    height: 14vh;
+    width: 100%;
+    /* border: 2px solid blue; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 40px 0px 0px;
+}
+.logoDiv{
+    height: inherit;
+    width: 20%;
+    /* border: 1px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logoDiv img{
+    height: 70%;
+    width: 30%;
+}
+
+.listDiv{
+    height: inherit;
+    width: 50%;
+    /* border: 1px solid green; */
+}
+
+.listDiv ul{
+    display: flex;
+    height: inherit;
+    width: 100%;
+    justify-content: space-around;align-items: center;
+}
+.listDiv ul li{
+    list-style: none;
+}
+.listDiv ul li a{
+    color: black;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.buttonDiv{
+    height: inherit;
+    width: 25%;
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.buttonDiv button{
+    height: 2.5rem;
+    width: 8rem;
+    outline: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.buttonDiv button:active{
+    transform: scale(0.98);
+}
+#csr{
+    border: 1px solid red;
+    color: red;
+    background-color: white;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+#donate{
+    background-color: red;
+    color: white ;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#donate p{
+    font-size: 1.1rem;
+    margin-right: 10px;
+}
+#donate span{
+    color: white;
+}
+

@@ -1,0 +1,40 @@
+.outerDiv{
+    height: 400px;
+    width: 100%;
+    /* border:  2px solid red; */
+    /* background-image: url("https://nationalhighschool.org.in/wp-content/uploads/the-school-banner-scaled.jpg"); */
+    position: relative;
+    background-color: #495057;
+}
+
+.outerDiv img{
+    object-position: center;
+    object-fit: cover;
+    height: inherit;
+    width: inherit;
+    opacity: 0.4;
+    /* background-color: #495057; */
+}
+
+.innerDiv{
+    position: absolute;
+    top: 15%;
+    left: 15%;
+    height: 300px;
+    width: 70%;
+    /* margin: 20px auto; */
+    /* border: 2px solid red; */
+}
+.innerDiv h2{
+    color: white;
+    font-size: 3.5rem;
+    text-align: center;
+    margin: 30px 0px;
+    line-height: 2;
+}
+.innerDiv p{
+    color: white;
+    font-size: 1.2rem;
+    text-align: center;
+    line-height: 1.5;
+}
